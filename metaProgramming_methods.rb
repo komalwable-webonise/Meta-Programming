@@ -12,7 +12,7 @@ Arithmetic.class_eval do
 	end
 end
 Arithmetic.new.subtraction(40,10)
-Arithmetic.say_instance()
+Arithmetic.say_instance
 
 # 2.instance_eval
 class Login_page
@@ -36,12 +36,6 @@ class Person
 	 def initialize(username, password)
 	 	@user = username
 		@pass = password
-	end
-	def set_user
-		@user
-	end
-	def set_pass
-		@pass
 	end
 end
 p = Person.new("komal", "Kw123@45")
